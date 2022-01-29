@@ -298,11 +298,12 @@ form{
     
 }
 
-#probarBorde{
-    padding: 40;
-    margin: 80px 40px 80px 40px;
-    border: 20px solid crimson;
-    color: white;
+.nosotros{
+    padding: 20px 80px 450px 80px;
+    text-align: center;
+    color: black;
+    font-size: x-large;
+    
 }
 
 @media only screen and (max-width: 425px){
