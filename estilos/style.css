@@ -223,10 +223,7 @@
 
 
 
-.imgInicio{
-    display: flex;
-    justify-content: space-around;
-}
+
 
 
 h1{
@@ -296,6 +293,10 @@ form{
     background-color: blanchedalmond;
     height: auto;
     
+}
+
+.inicioPag{
+    background-color: black;
 }
 
 #probarBorde{
