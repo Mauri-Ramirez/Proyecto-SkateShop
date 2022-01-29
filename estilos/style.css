@@ -223,10 +223,7 @@
 
 
 
-.imgInicio{
-    display: flex;
-    justify-content: space-around;
-}
+
 
 
 h1{
@@ -298,13 +295,16 @@ form{
     
 }
 
+
 .nosotros{
     padding: 20px 80px 450px 80px;
     text-align: center;
     color: black;
     font-size: x-large;
     
-}
+
+
+
 
 @media only screen and (max-width: 425px){
     nav{
