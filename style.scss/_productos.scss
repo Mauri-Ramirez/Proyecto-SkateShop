@@ -1,0 +1,49 @@
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+
+    
+        
+}
+
+.card {
+    display: flex;
+    border: solid 1px;
+    width: 400px;
+    height: 500px;
+
+    background-color: rgb(255, 255, 255);
+
+    margin: 20px 0;
+
+    flex-direction: column;
+    align-items: center;
+
+    
+
+}
+
+.card:hover {
+    border: solid 1px;
+    width: 400px;
+    height: 500px;
+
+    box-decoration-break: 10px 15px clone;
+    color: tomato;
+
+
+}
+
+.cardImg {
+    height: 80%;
+    width: 100%;
+  
+    
+}
+
+
+.medidaImg {
+    width: 100%;
+    height: 100%;
+}
