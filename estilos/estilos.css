@@ -5,13 +5,12 @@
 }
 
 body {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   background-color: white;
   height: 100vh;
 }
 
 .header {
-  background-color: black;
+  background-color: white;
 }
 .header .headerNav {
   display: flex;
@@ -49,24 +48,6 @@ body {
   border-radius: 40px;
 }
 
-footer {
-  display: flex;
-  justify-content: space-around;
-  background-color: #9e9a9a;
-  align-items: center;
-}
-footer .menuFooter {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  list-style-type: none;
-}
-footer .menuFooter iframe {
-  margin: 20px;
-  border-radius: 20px;
-  padding: 5px;
-}
-
 .contenedor {
   display: flex;
   flex-wrap: wrap;
@@ -101,25 +82,6 @@ footer .menuFooter iframe {
 .medidaImg {
   width: 100%;
   height: 100%;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-form .datos {
-  margin: 10px;
-  width: 800px;
-  padding: 10px;
-  border: solid 1;
-  background-color: blanchedalmond;
-  height: auto;
-}
-form .imgContacto {
-  width: 800px;
-  height: 600px;
-  align-items: center;
 }
 
 .nosotros {
