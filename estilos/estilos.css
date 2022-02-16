@@ -48,6 +48,25 @@ body {
   border-radius: 40px;
 }
 
+.cajaStock {
+  background-color: #0dc71c;
+  font-size: large;
+  font-family: Verdana, Tahoma, sans-serif;
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 1;
+  margin-bottom: 1.5em;
+  padding: 5px 6px;
+  position: relative;
+}
+
+.precio {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  vertical-align: 50px;
+}
+
 .contenedor {
   display: flex;
   flex-wrap: wrap;
