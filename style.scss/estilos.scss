@@ -63,10 +63,16 @@
     .padre {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+        margin: 10px;
+        justify-items: center;
+        align-items: center;
+
+
         grid-template-areas:
-            "foto1 foto2 foto3 foto4"
-            
+            "foto1 foto2"
+            "foto3 foto4"
+
 
 
 

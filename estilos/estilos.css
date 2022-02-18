@@ -5,47 +5,7 @@
 }
 
 body {
-  background-color: white;
-  height: 100vh;
-}
-
-.header {
-  background-color: white;
-}
-.header .headerNav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-right: 400px;
-}
-.header .headerNav .navegacion {
-  display: flex;
-  list-style-type: none;
-}
-.header .headerNav .navegacion li {
-  margin: 40px;
-  padding: 20px;
-  border: solid 1px;
-  border-radius: 20px;
-}
-
-.navegacion li:hover {
-  margin: 40px;
-  padding: 20px;
-  border: solid 1px;
-  border-radius: 20px;
-  background-color: red;
-}
-
-.cajaLogo {
-  width: 100px;
-  height: auto;
-  margin-right: 400px;
-}
-
-.imgMedida {
-  width: 100%;
-  border-radius: 40px;
+  background-size: cover;
 }
 
 .cajaStock {
@@ -108,6 +68,7 @@ body {
 .medidaImg {
   width: 100%;
   height: 100%;
+  border-radius: 10px;
 }
 
 .nosotros {
@@ -117,62 +78,66 @@ body {
   font-size: x-large;
 }
 
+#bodyteam {
+  background-color: black;
+}
+
+.name {
+  background: #ccc;
+  background: linear-gradient(#080808, white);
+  font-family: system-ui;
+  font-size: 2rem;
+  font-weight: bold;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
 .padre {
   display: grid;
-  grid-template-columns: 4fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: "foto1 foto2 foto3 foto4";
-  border: solid white;
-  background-color: white;
+  grid-template-columns: 1fr 1fr;
   gap: 10px;
+  margin: 10px;
   justify-items: center;
   align-items: center;
+  grid-template-areas: "foto1 foto2" "foto3 foto4";
 }
 .padre .foto1 {
   grid-area: foto1;
-  background-color: black;
-  border: 5px solid black;
-  color: white;
+  background-color: white;
   display: flex;
   width: 400px;
-  height: 500px;
-  margin: 20px 0;
+  height: 600px;
+  border-radius: 10px;
   flex-direction: column;
   align-items: center;
 }
 .padre .foto2 {
   grid-area: foto2;
-  background-color: black;
-  border: 5px solid black;
-  color: white;
+  background-color: white;
   display: flex;
   width: 400px;
-  height: 500px;
-  margin: 20px 0;
+  height: 600px;
+  border-radius: 10px;
   flex-direction: column;
   align-items: center;
 }
 .padre .foto3 {
   grid-area: foto3;
-  background-color: black;
-  border: 5px solid black;
-  color: white;
+  background-color: white;
   display: flex;
   width: 400px;
-  height: 500px;
-  margin: 20px 0;
+  height: 600px;
+  border-radius: 10px;
   flex-direction: column;
   align-items: center;
 }
 .padre .foto4 {
   grid-area: foto4;
-  background-color: black;
-  border: 5px solid black;
-  color: white;
+  background-color: white;
   display: flex;
   width: 400px;
-  height: 500px;
-  margin: 20px 0;
+  height: 600px;
+  border-radius: 10px;
   flex-direction: column;
   align-items: center;
 }
@@ -214,7 +179,10 @@ body {
   .padre {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "foto1 foto2 foto3 foto4";
+    gap: 10px;
+    margin: 10px;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas: "foto1 foto2" "foto3 foto4";
   }
 }/*# sourceMappingURL=estilos.css.map */
