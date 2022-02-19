@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-size: cover;
-}
-
 .cajaStock {
   background-color: #0dc71c;
   font-size: large;
@@ -27,15 +23,20 @@ body {
   vertical-align: 50px;
 }
 
+#section {
+  padding-top: 100px;
+}
+
 .contenedor {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.card {
+.tarjeta {
   display: flex;
   border: solid 1px;
+  border-radius: 10px;
   width: 400px;
   height: 500px;
   color: black;
@@ -49,7 +50,7 @@ body {
   align-items: center;
 }
 
-.card:hover {
+.tarjeta:hover {
   border: solid 1px;
   width: 400px;
   height: 500px;
@@ -72,14 +73,15 @@ body {
 }
 
 .nosotros {
-  padding: 20px 80px 450px 80px;
+  padding: 100px;
   text-align: center;
-  color: black;
-  font-size: x-large;
+  font-family: system-ui;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
-#bodyteam {
-  background-color: black;
+.imgnosotros {
+  padding: 100px;
 }
 
 .name {
@@ -103,43 +105,47 @@ body {
 }
 .padre .foto1 {
   grid-area: foto1;
-  background-color: white;
+  background-color: black;
   display: flex;
   width: 400px;
   height: 600px;
   border-radius: 10px;
   flex-direction: column;
   align-items: center;
+  cursor: default;
 }
 .padre .foto2 {
   grid-area: foto2;
-  background-color: white;
+  background-color: black;
   display: flex;
   width: 400px;
   height: 600px;
   border-radius: 10px;
   flex-direction: column;
   align-items: center;
+  cursor: default;
 }
 .padre .foto3 {
   grid-area: foto3;
-  background-color: white;
+  background-color: black;
   display: flex;
   width: 400px;
   height: 600px;
   border-radius: 10px;
   flex-direction: column;
   align-items: center;
+  cursor: default;
 }
 .padre .foto4 {
   grid-area: foto4;
-  background-color: white;
+  background-color: black;
   display: flex;
   width: 400px;
   height: 600px;
   border-radius: 10px;
   flex-direction: column;
   align-items: center;
+  cursor: default;
 }
 
 .portadaZero {
