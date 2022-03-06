@@ -1,19 +1,22 @@
 .nosotros {
-    padding: 100px;
+  
     text-align: center;
-
-
     font-family: system-ui;
-    font-size: 2rem;
     font-weight: bold;
-
-
-
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2em;
+    color: white;
 
 }
 
-.imgnosotros {
-    padding: 100px;
 
+@media only screen and (max-width: 768px) {
+
+    .nosotros{
+        font-size: large;
+    }
+
+    
 }

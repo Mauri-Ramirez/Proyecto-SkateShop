@@ -1,36 +1,25 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-.cajaStock {
-  background-color: #0dc71c;
-  font-size: large;
-  font-family: Verdana, Tahoma, sans-serif;
-  color: #fff;
-  font-weight: bold;
-  display: inline-block;
-  line-height: 1;
-  margin-bottom: 1.5em;
-  padding: 5px 6px;
-  position: relative;
+h1 {
+  font-family: "Finger Paint", cursive;
 }
 
-.precio {
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
-  vertical-align: 50px;
-}
-
-#section {
-  padding-top: 100px;
+.portadaZero {
+  width: 100%;
+  height: 100vh;
 }
 
 .contenedor {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-top: 5vh;
+  text-align: center;
 }
 
 .tarjeta {
@@ -55,9 +44,6 @@
   width: 400px;
   height: 500px;
   box-shadow: 5px 5px 20 px rgba(0, 0, 0, 0.4);
-  transform: translateY(3%);
-  -webkit-box-decoration-break: clone;
-          box-decoration-break: clone;
   border-color: red;
 }
 
@@ -72,18 +58,64 @@
   border-radius: 10px;
 }
 
+/* estilos sección "mas info" de productos*/
+.cajaStock {
+  background-color: #0dc71c;
+  font-size: large;
+  font-family: Verdana, Tahoma, sans-serif;
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 1;
+  margin-bottom: 1.5em;
+  padding: 5px 6px;
+  position: relative;
+}
+
+.precio {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  vertical-align: 50px;
+}
+
+/*efecto imagenes seccion "mas info" Productos*/
+.divInfo {
+  overflow: hidden;
+}
+
+.imgInfo {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.imgInfo:hover {
+  transform: scale(1.2);
+}
+
+@media only screen and (max-width: 767px) {
+  .botonFormulario {
+    text-align: center;
+  }
+}
 .nosotros {
-  padding: 100px;
   text-align: center;
   font-family: system-ui;
-  font-size: 2rem;
   font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 2em;
+  color: white;
 }
 
-.imgnosotros {
-  padding: 100px;
+@media only screen and (max-width: 768px) {
+  .nosotros {
+    font-size: large;
+  }
 }
-
 .name {
   background: #ccc;
   background: linear-gradient(#080808, white);
@@ -148,16 +180,7 @@
   cursor: default;
 }
 
-.portadaZero {
-  width: 100%;
-  height: 100vh;
-}
-
 @media only screen and (max-width: 425px) {
-  nav {
-    background-color: black;
-  }
-
   .padre {
     display: grid;
     grid-template-columns: 1fr;
@@ -166,10 +189,6 @@
   }
 }
 @media only screen and (min-width: 426px) {
-  nav {
-    background-color: black;
-  }
-
   .padre {
     display: grid;
     grid-template-columns: 1fr;
@@ -178,10 +197,6 @@
   }
 }
 @media only screen and (min-width: 781px) {
-  nav {
-    background-color: black;
-  }
-
   .padre {
     display: grid;
     grid-template-columns: 1fr 1fr;
